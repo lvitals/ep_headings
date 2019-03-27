@@ -1,0 +1,23 @@
+{
+  "parts": [
+    {
+      "name": "main",
+      "client_hooks": {
+        "aceEditorCSS": "ep_headings/static/js/index:aceEditorCSS",
+        "postAceInit": "ep_headings/static/js/index:postAceInit",
+        "aceInitialized": "ep_headings/static/js/index:aceInitialized",
+        "aceAttribsToClasses": "ep_headings/static/js/index:aceAttribsToClasses",
+        "aceRegisterBlockElements": "ep_headings/static/js/index:aceRegisterBlockElements",
+        "aceCreateDomLine": "ep_headings/static/js/index:aceCreateDomLine"
+      },
+      "hooks": {
+        "stylesForExport": "ep_headings/index:stylesForExport",
+        "getLineHTMLForExport": "ep_headings/index:getLineHTMLForExport",
+        "eejsBlock_editbarMenuLeft": "ep_headings/index:eejsBlock_editbarMenuLeft",
+        "exportHtmlAdditionalTagsWithData": "ep_headings/index:exportHtmlAdditionalTagsWithData",
+        "collectContentPre": "ep_headings/static/js/shared:collectContentPre",
+        "collectContentPost": "ep_headings/static/js/shared:collectContentPost"
+      }
+    }
+  ]
+}
